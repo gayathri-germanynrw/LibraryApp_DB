@@ -18,6 +18,9 @@ public class BookPage extends BasePage {
     @FindBy(id = "book_categories")
     public WebElement mainCategoryElement;
 
+    @FindBy(css = ".dataTables_info")
+    public WebElement bookCount;
+
     @FindBy(name = "name")
     public WebElement bookName;
 
